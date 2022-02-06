@@ -1,0 +1,10 @@
+- layout: left
+  company: 가비아
+  link: https://www.gabia.com/
+  job_title: Spring & NodeJS 서버 개발자
+  dates: 2021.11 ~ 현재
+  quote: >
+    도메인, 호스팅, 클라우드, 그룹웨어, 메일 등 IT 인프라 기업
+  description: | # this will include new lines to allow paragraphs
+    * 레거시 API 개편 (PHP 5.6 -> TS & Node)
+    * 테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선
