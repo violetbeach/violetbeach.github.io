@@ -1,0 +1,9 @@
+- layout: left
+  name: Hiworks 예약 API 개편
+  dates: 2021.11 ~ 2022.02
+  quote: >
+    팀원들과 코드 리뷰를 하면서 개발은 혼자 진행
+  description: | # this will include new lines to allow paragraphs
+    * 레거시 API 개편 (PHP 5.6 -> TS & Node REST API)
+    * 코드 가독성 & 유지보수성을 위해 리팩토링
+    * 테스트 커버리지 98%
