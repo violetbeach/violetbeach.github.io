@@ -2,7 +2,7 @@
 repository: violetbeach/violetbeach.github.io
 
 # Personal info
-name: 이재헌(준비중...)
+name: 이재헌
 title: Java & NodeJS 백엔드 개발자
 email: ti6419@gmail.com
 website: https://jaehoney.tistory.com
@@ -20,8 +20,7 @@ github_username: violetbeach
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring / NodeJS & TypeScript 기반의 백엔드 개발자로
-  **클린 코드**, **이펙티브 자바**, **Index 설계 & SQL 튜닝**, **대규모 서비스** 등을 공부하고 있습니다.<br/>
+  Java & Spring / NodeJS & TypeScript 기반의 백엔드 개발자입니다. 최근에는 **리팩토링**, **Index 설계 & SQL 튜닝**, **대규모 서비스** 등에 관심이 많습니다.<br/>
 
 # Footer
 footer_show_references: true
