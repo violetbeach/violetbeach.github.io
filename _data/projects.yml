@@ -2,7 +2,7 @@
   name: Java 개발환경 구축
   dates: 2021.04 ~
   quote: >
-    Hiworks DB 설계 구조 때문에 SpringBoot 프로젝트에서 ORM을 사용할 수 없는 문제 해결
+    기존의 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 새로 구축
   description: | # this will include new lines to allow paragraphs
     * DB IP와 Table name(Partition)이 JWT 토큰에서 꺼내는 구조라서 기존 프로젝트에서 ORM을 사용할 수 없었음(Jdbc Template 사용)
       * JPA의 특성상 DataSource와 Entity과 매핑되는 Table Name을 동적으로 사용하기 어려움
@@ -12,8 +12,9 @@
 - layout: left
   name: TS & Node 템플릿 개선
   dates: 2021.02 ~ 2022.05
+  quote: >
+    메일 API 개발하면서 Team 내 프로젝트 Template(TS & Node)에 개선 사항 반영
   description: | # this will include new lines to allow paragraphs
-    * 메일 API 개발하면서 Team 내 프로젝트 Template(TS & Node)에 개선 사항 반영
     * Entity와 DTO 간 변환 코드 개선 ([class-transformer 사용](https://jaehoney.tistory.com/93))
     * [Custom global exception handler 구현 및 적용](https://jaehoney.tistory.com/88)
     * Project Structure 설계 및 컨벤션 구축
