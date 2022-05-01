@@ -6,5 +6,8 @@
   quote: >
     도메인, 호스팅, 클라우드, 그룹웨어, 메일 등 IT 인프라 기업
   description: | # this will include new lines to allow paragraphs
-    * 레거시 API 개편 (PHP 5.6 -> TS & Node)
-    * 테스트 코드 & 코드리뷰 & 아키텍처 개선 등 개발환경 개선
+    * 시장 점유율 1위 그룹웨어 하이웍스 개발 및 유지보수
+    * 레거시 개편 (PHP 5.6 CodeIgniter -> TS & Node)
+    * 신규 API 개발 환경 구축
+    * SQL 성능 튜닝 및 장애 대응
+    * 테스트 코드 & 코드리뷰 & 아키텍처 설계 등 개발 환경 개선
