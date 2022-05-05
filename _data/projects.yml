@@ -4,10 +4,10 @@
   quote: >
     기존의 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 새로 구축
   description: | # this will include new lines to allow paragraphs
-    * DB IP와 Table name(Partition)이 JWT 토큰에서 꺼내는 구조라서 기존 프로젝트에서 ORM을 사용할 수 없었음(Jdbc Template 사용)
-      * JPA의 특성상 DataSource와 Entity과 매핑되는 Table Name을 동적으로 사용하기 어려움
-      * Dynamic DataSource, Dynamic Schema Name을 구현
-    * 개인 블로그에 과정을 자세하게 정리할 예정
+    * DB IP와 Schema name(Partition)이 JWT 토큰에서 꺼내는 구조라서 기존 프로젝트에서 ORM을 사용할 수 없었음(Jdbc Template 사용)
+      * JPA의 특성상 DataSource와 Schema Name을 동적으로 사용하기 어려움
+      * Dynamic DataSource, Dynamic Schema Name을 구현  [(구현 과정 링크)](https://jaehoney.tistory.com/180)
+    * 기존의 DB에서도 JPA를 사용할 수 있는 새로운 프로젝트 양식을 팀에 공유
 
 - layout: left
   name: TS & Node 템플릿 개선
