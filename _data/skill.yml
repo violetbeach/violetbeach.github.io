@@ -1,10 +1,10 @@
 - layout: left
   name: Backend
   description: | # this will include new lines to allow paragraphs
-    * Java, NodeJS (TypeScript),
+    * Java
     * Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Spring Cloud, Spring Mail
-    * Sequelize, JPA, Querydsl, Mybatis
-    * Jest, Supertest, Junit5, Mockito
+    * JPA, Querydsl, Mybatis
+    * Junit5, Mockito
     * Gradle, Maven
     * IntelliJ, WebStorm, DataGrip
 - layout: left

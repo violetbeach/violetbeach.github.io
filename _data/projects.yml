@@ -21,18 +21,6 @@
     * 개발환경 개선을 위해 [로컬 테스트 환경 구축](https://jaehoney.tistory.com/114?category=869692)
 
 - layout: left
-  name: Hiworks 예약 API 개편
-  dates: 2021.11 ~ 2022.02
-  quote: >
-    팀원들과 코드 리뷰를 하면서 개발은 혼자 진행
-  description: | # this will include new lines to allow paragraphs
-    * 레거시 개편 (PHP 5.6 -> TS & Node REST API)
-    * 코드 가독성 & 유지보수성을 위해 리팩토링
-    * 동시성 제어를 위해 [BullMQ](https://jaehoney.tistory.com/97) 도입
-    * 자동 추첨을 위해 Node-Cron 사용 ([Cron vs Event Sceduler 정리](https://jaehoney.tistory.com/103))
-    * 테스트 커버리지 98%
-
-- layout: left
   name: Daeng Bu
   link: https://github.com/violetbeach/Daengbu
   dates: 2021.02 ~ 2022.07
