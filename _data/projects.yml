@@ -1,6 +1,6 @@
 - layout: left
   name: Java 개발환경 구축
-  dates: 2021.04 ~
+  dates: 2022.04 ~ 2022.05
   quote: >
     기존의 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 새로 구축
   description: | # this will include new lines to allow paragraphs
@@ -10,20 +10,21 @@
     * 기존의 DB에서도 JPA를 사용할 수 있는 새로운 프로젝트 양식을 팀에 공유
 
 - layout: left
-  name: TS & Node 템플릿 개선
-  dates: 2021.02 ~ 2022.05
+  name: Hiworks 예약 API 개편
+  dates: 2021.11 ~ 2022.02
   quote: >
-    메일 API 개발하면서 Team 내 프로젝트 Template(TS & Node)에 개선 사항 반영
+    팀원들과 코드 리뷰를 하면서 개발은 혼자 진행
   description: | # this will include new lines to allow paragraphs
-    * Entity와 DTO 간 변환 코드 개선 ([class-transformer 사용](https://jaehoney.tistory.com/93))
-    * [Custom global exception handler 구현 및 적용](https://jaehoney.tistory.com/88)
-    * Project Structure 설계 및 컨벤션 구축
-    * 개발환경 개선을 위해 [로컬 테스트 환경 구축](https://jaehoney.tistory.com/114?category=869692)
+    * 레거시 개편 (PHP 5.6 -> TS & Node REST API)
+    * 코드 가독성 & 유지보수성을 위해 리팩토링
+    * 동시성 제어를 위해 [BullMQ](https://jaehoney.tistory.com/97) 도입
+    * 자동 추첨을 위해 Node-Cron 사용 ([Cron vs Event Sceduler 정리](https://jaehoney.tistory.com/103))
+    * 테스트 커버리지 98%
 
 - layout: left
   name: Daeng Bu
   link: https://github.com/violetbeach/Daengbu
-  dates: 2021.02 ~ 2022.07
+  dates: 2021.02 ~ 2021.07
   quote: >
     학부시절 개인 프로젝트로 제작된 강아지 입 · 분양 커뮤니티
   description: | # this will include new lines to allow paragraphs
