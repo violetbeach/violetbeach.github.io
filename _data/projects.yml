@@ -16,7 +16,8 @@
     팀원들과 코드 리뷰를 하면서 개발은 혼자 진행
   description: | # this will include new lines to allow paragraphs
     * 레거시 개편 (PHP 5.6 -> TS & Node REST API)
-    * 코드 가독성 & 유지보수성을 위해 리팩토링
+      * OOP와 ORM 사용으로 유지보수성 개선을 중요시 여김
+      * 철저한 테스트 코드로 [소프트웨어 창발성](https://jaehoney.tistory.com/206?category=983083)을 추구
     * 동시성 제어를 위해 [BullMQ](https://jaehoney.tistory.com/97) 도입
     * 자동 추첨을 위해 Node-Cron 사용 ([Cron vs Event Sceduler 정리](https://jaehoney.tistory.com/103))
     * 테스트 커버리지 98%
@@ -33,5 +34,4 @@
     * Spring Mail을 사용한 이메일 인증 구현
     * OAuth2.0을 이용한 소셜로그인 구현
     * AWS EC2, RDS, S3, Route53, ELB, CodeDeploy 사용
-    * 무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)
-    * Repository-Service-Controller with DI pattern
+    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://user-images.githubusercontent.com/63458653/130416850-49b1cbde-6080-4941-8687-9e8dac42d486.png)
