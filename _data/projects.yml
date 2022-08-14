@@ -1,5 +1,20 @@
 - layout: left
-  name: Java 개발환경 구축
+  name: Verby
+  job_title: 커버곡 영상 공유 플랫폼
+  dates: 2022.07 ~ 2022.05
+  link: https://github.com/verby-korea/verby-rest-api
+  quote: >
+    OOP, TDD, DDD 등의 이론을 적용해서 고수준의 유지보수성과 예측 가능한 서버 확장에 대한 설계를 고려하며 만든 사이드 프로젝트
+  description: | # this will include new lines to allow paragraphs
+    * 서비스 확장 용이성을 위해 DDD(Domain-Driven-Design)을 적용
+    * CQRS 패턴을 적용해서 명령 모델과 조회 모델을 분리
+      * 조회 쿼리 성능 최적화
+    * API 문서 자동화 구축
+      * [Custom snippet 사용](https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
+    * 테스트 자동화, 배포 자동화 구축
+
+- layout: left
+  name: Hiworks Java API Template 개편
   dates: 2022.04 ~ 2022.05
   quote: >
     기존의 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 새로 구축
@@ -10,28 +25,16 @@
     * 기존의 DB에서도 JPA를 사용할 수 있는 새로운 프로젝트 양식을 팀에 공유
 
 - layout: left
-  name: Hiworks 예약 API 개편
-  dates: 2021.11 ~ 2022.02
-  quote: >
-    팀원들과 코드 리뷰를 하면서 개발은 혼자 진행
-  description: | # this will include new lines to allow paragraphs
-    * 레거시 개편 (PHP 5.6 -> TS & Node REST API)
-      * OOP와 ORM 사용으로 유지보수성 개선을 중요시 여김
-      * 철저한 테스트 코드로 [소프트웨어 창발성](https://jaehoney.tistory.com/206?category=983083)을 추구
-    * 동시성 제어를 위해 [BullMQ](https://jaehoney.tistory.com/97) 도입
-    * 자동 추첨을 위해 Node-Cron 사용 ([Cron vs Event Sceduler 정리](https://jaehoney.tistory.com/103))
-    * 테스트 커버리지 98%
-
-- layout: left
   name: Daeng Bu
   link: https://github.com/violetbeach/Daengbu
   dates: 2021.02 ~ 2021.07
+  job_title: 강아지 입 · 분양 커뮤니티
   quote: >
-    학부시절 개인 프로젝트로 제작된 강아지 입 · 분양 커뮤니티
+    실 서비스 수준의 프로젝트를 구현하는 것을 목표로 진행한 개인 프로젝트
   description: | # this will include new lines to allow paragraphs
     * HTTPS + REST API + Stateless (JWT in HttpOnly Cookie)
     * 보안점 강화 (XSS, CSRF, SQL Injection 방지 구현)
     * Spring Mail을 사용한 이메일 인증 구현
     * OAuth2.0을 이용한 소셜로그인 구현
     * AWS EC2, RDS, S3, Route53, ELB, CodeDeploy 사용
-    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://user-images.githubusercontent.com/63458653/130416850-49b1cbde-6080-4941-8687-9e8dac42d486.png)
+    * <a onclick="window.open('https://user-images.githubusercontent.com/63458653/130416850-49b1cbde-6080-4941-8687-9e8dac42d486.png', '_blank', 'width=1000, height=600')" style="cursor:pointer">무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)</a>
