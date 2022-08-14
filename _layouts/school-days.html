@@ -1,0 +1,91 @@
+<html lang="{{ page.lang | default: site.lang | default: "ko" }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- google charts -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Jaeheon's School Days</title>
+    <meta name="description" content="Jaeheon's School Days">
+<body style="margin: 40px">
+<section id="about">
+    <div class="container">
+        <div class="user-details">
+            <h2>
+                <p style="text-align: left;font-size: 48px;margin-bottom: 10px">School days</p>
+            </h2>
+            <p style="text-align: left; font-size: 16px; font-weight:700; line-height: 2">• Identity: 동서대학교 컴퓨터공학과 4학년 <br> • Overall GPA(총점) : 3.87/4.5 <br> • Major GPA(전공 학점) : 4.41/4.5 </p>
+            <br>
+            <div id="chart_div"></div>
+        </div>
+        <script>
+            google.charts.load('current', {
+                packages: ['corechart', 'line']
+            });
+            google.charts.setOnLoadCallback(drawBasic);
+
+            function drawBasic() {
+                var data = new google.visualization.DataTable();
+                data.addColumn('string', '학기');
+                data.addColumn('number', '평균 학점');
+                data.addRows([
+                    ['1학년 1학기', 2.19],
+                    ['1학년 2학기', 3.24],
+                    ['2학년 1학기', 4.32],
+                    ['2학년 2학기', 4.41],
+                    ['3학년 1학기', 4.5],
+                    ['3학년 2학기', 4.5],
+                    ['4학년 1학기', 4.5]
+                ]);
+                var options = {
+                    isStacked: 'percent',
+                    focusTarget: 'category',
+                    chartArea: {
+                        left: 40,
+                        top: 10,
+                        right: 10,
+                        bottom: 50
+                    },
+                    fontSize: 12,
+                    height: 500,
+                    legend: {
+                        position: "none"
+                    },
+                    pointSize: 5,
+                    tooltip: {
+                        textStyle: {
+                            fontSize: 12
+                        },
+                        showColorCode: true,
+                        trigger: 'both'
+                    },
+                    animation: {
+                        startup: true,
+                        duration: 1000,
+                        easing: 'in'
+                    },
+                    textStyle: {
+                        fontSize: 15,
+                        bold: true,
+                        italic: true,
+                        color: '#871b47',
+                        auraColor: '#d799ae',
+                        opacity: 0.8,
+                    },
+                    hAxis: {},
+                    vAxis: {
+                        ticks: [1.0, 1.5, 2.0, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5]
+                    }
+                };
+                var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+                window.addEventListener('resize', function() {
+                    chart.draw(data, options);
+                }, false);
+                chart.draw(data, options);
+            }
+        </script>
+    </div>
+</section>
+</body>
+</html>

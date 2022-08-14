@@ -7,3 +7,16 @@
     * 관심있는 것들, 개발하면서 겪은 고민, 업무에서 만난 문제 등을 자세히 정리
     * 2020년 부터 꾸준히 작성하고 있고 계속 운영할 예정
     * 평일 평균 PV 600 ~ 700, 누적 PV 12만
+
+- layout: left
+  name: School Days
+  job_title: <a onclick="window.open('https://violetbeach.github.io/school-days', '_blank', 'width=800, height=800, top=100, left=100')" style="cursor:pointer">https://violetbeach.github.io/school-days</a>
+  quote: >
+    학창 생활
+  description: | # this will include new lines to allow paragraphs
+    * Identity: 동서대학교 컴퓨터공학과 4학년
+    * Activities: UBSE 연구회 소속
+      * 스터디 모임(Java & Spring), 산학 협력 프로젝트 활동(Android), ...
+      * 공모전 참가 (Red Dot Award Winner, etc.)
+    * Overall GPA(총점) : 3.87/4.5
+    * Major GPA(전공 학점) : 4.41/4.5
