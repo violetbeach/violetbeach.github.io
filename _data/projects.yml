@@ -12,6 +12,7 @@
     * API 문서 자동화 구축
       * [Custom snippet 사용](https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
     * 테스트 자동화, 배포 자동화 구축
+    * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
 
 - layout: left
   name: Hiworks Java API Template 개편
