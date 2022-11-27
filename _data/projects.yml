@@ -38,4 +38,4 @@
     * Spring Mail을 사용한 이메일 인증 구현
     * OAuth2.0을 이용한 소셜로그인 구현
     * AWS EC2, RDS, S3, Route53, ELB, CodeDeploy 사용
-    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://github.com/violetbeach/Daengbu)
+    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://github.com/violetbeach/Daengbu#-%EB%B0%B0%ED%8F%AC)
