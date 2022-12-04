@@ -6,12 +6,13 @@
   quote: >
     OOP, TDD, DDD 등의 이론을 적용해서 고수준의 유지보수성과 예측 가능한 서버 확장에 대한 설계를 고려하며 만든 사이드 프로젝트
   description: | # this will include new lines to allow paragraphs
-    * 서비스 확장 용이성을 위해 DDD(Domain-Driven-Design)을 적용
-    * CQRS 패턴을 적용해서 명령 모델과 조회 모델을 분리
-      * 조회 쿼리 성능 최적화
-    * API 문서 자동화 구축
+    * 서비스 확장 용이성 및 높은 가독성, 중복 로직 제거 등을 위해 도메인 주도 설계(Domain-Driven-Design)를 적용
+    * 모델 간소화 및 조회 쿼리 최적화를 위해 CQRS 패턴을 적용
+    * 깨끗한 테스트 코드 작성(Nested, Fixture 등 활용)
+    * Storage 접근에 대한 Transaction 완전 분리
+    * 테스트 자동화, 배포 자동화
+    * API 문서 자동화
       * [Custom snippet 사용](https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
-    * 테스트 자동화, 배포 자동화 구축
     * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
 
 - layout: left
