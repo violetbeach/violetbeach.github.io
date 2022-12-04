@@ -22,10 +22,9 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring 기반의 1년차 백엔드 개발자로 MAU 60만 그룹웨어 서비스의 **API 개발**과 **서비스 유지보수**를 해왔습니다. 아침 공부를 좋아해서 **매일 1시간 30분 ~ 2시간 전에 출근**해서 블로그 포스팅 및 개인 공부를 하고 있습니다. \
   <br>
-  <mark>SOLID 원칙 준수</mark>와 <mark>테스트 코드 작성</mark>을 매우 중요하게 여깁니다. **높은 가독성**과 **변경 용이성**이 유도된다고 생각하기 때문입니다. \
-  트래픽 증가에 따른 시스템 확장에 대응할 수 있는 <mark>시스템 설계</mark>도 매우 중요하게 여깁니다. \
+  <mark>SOLID 원칙</mark> 및 <mark>KISS, DRY, YAGNI 원칙</mark> 준수하는 것을 매우 선호하며, 높은 가독성 및 중복 로직 제거를 위해 <mark>도메인</mark> 중심적으로 개발하는 것을 좋아합니다. 추가로 <mark>테스트 코드 작성</mark>을 매우 중요하게 여기고, 트래픽 증가에 따른 시스템 확장에 대응할 수 있는 <mark>시스템 설계</mark>도 매우 중요하게 여깁니다. \
   <br>
-  성능 개선을 할 때는 **Worse-case**를 기준으로 더 나은 방법을 선호하고, 인덱스 문제나 N+1 문제, Flat 조회로 인한 중복 데이터 조회 문제, 트랜잭션이 너무 길어서 커넥션 풀을 점유하는 등의 문제를 풀어내고 있습니다.
+  성능 개선을 할 때는 **Worse-case**를 기준으로 더 나은 방법을 선호하고, Disk I/O를 경계하고 DB Index 문제, Hibernate의 Flat 조회 문제, N+1 문제, DB 커넥션을 불필요하게 점유하는 등의 문제를 풀어내고 있습니다.
 
 # Footer
 footer_show_references: true
