@@ -8,7 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     * 서비스 확장 용이성 및 높은 가독성, 중복 로직 제거 등을 위해 도메인 주도 설계(Domain-Driven-Design)를 적용
     * 모델 간소화 및 조회 쿼리 최적화를 위해 CQRS 패턴을 적용
-    * 깨끗한 테스트 코드 작성(Nested, Fixture 등 활용)
+    * 깨끗한 테스트 코드 작성(Nested Tests, Object Mother 패턴 등 활용)
     * Storage 접근에 대한 Transaction 완전 분리
     * 테스트 자동화, 배포 자동화
     * API 문서 자동화
