@@ -2,7 +2,7 @@
   name: Verby
   job_title: 커버곡 영상 공유 플랫폼
   dates: 2022.07 ~
-  link: https://github.com/verby-korea/verby-rest-api
+  link: https://github.com/verby-korea/verby-server
   quote: >
     OOP, TDD, DDD 등의 이론을 적용해서 고수준의 유지보수성과 예측 가능한 서버 확장에 대한 설계를 고려하며 만든 사이드 프로젝트
   description: | # this will include new lines to allow paragraphs
