@@ -32,13 +32,13 @@
     * 새로운 프로젝트 양식을 팀에 공유
 
 - layout: left
-  name: 하이웍스 장애 대응 및 유지보수
+  name: Hiworks 유지보수
   dates: 2022.02 ~
   quote: >
-    기존 프로젝트 유지보수
+    Hiworks 그룹웨어 유지보수
   description: | # this will include new lines to allow paragraphs
-    * 기존 프로젝트의 전반적인 운영 이슈 해결 및 장애 대응
-    * 로그 분석 (ELK, Rsyslog, Access log)
+    * 전반적인 운영 이슈 해결 및 장애 대응
+      * 로그 분석 (ELK Stack, Rsyslog, Access log)
     * 웹 UI 및 간단한 프론트 스크립트 작성
     * SVN -> GIT 이전, CI/CD 스크립트 작성
     * 브라우저 이슈 해결(CORS, Cache-Control 등)
