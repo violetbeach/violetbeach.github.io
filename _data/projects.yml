@@ -6,11 +6,15 @@
   quote: >
     OOP, TDD, DDD 등의 이론을 적용해서 고수준의 유지보수성과 예측 가능한 서버 확장에 대한 설계를 고려하며 만든 사이드 프로젝트
   description: | # this will include new lines to allow paragraphs
-    * 서비스 확장 용이성 및 높은 가독성, 중복 로직 제거 등을 위해 도메인 주도 설계(Domain-Driven-Design)를 적용
-    * 모델 간소화 및 조회 쿼리 최적화를 위해 CQRS 패턴을 적용
-    * 깨끗한 테스트 코드 작성(Nested Tests, Object Mother 패턴 등 활용)
+    * 도메인 주도 설계(Domain-Driven-Design)를 적용
+    * 멀티 모듈 적용
+    * CQRS(조회 모델 DB 분리) 패턴을 적용
+      * 이벤트를 활용한 변경 전파
+      * 캐싱(EH Cache, Redis) 적용
+      * Write Back (조회 수 Batch Insert) 적용
+    * 깨끗한 테스트 코드 (Nested Tests, Object Mother 패턴, ... 활용)
     * Storage 접근에 대한 Transaction 완전 분리
-    * 테스트 자동화, 배포 자동화
+    * 테스트 및 배포 자동화
     * API 문서 자동화
       * [Custom snippet 사용](https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
     * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
@@ -26,6 +30,18 @@
     * Sharding 내용 학습: [https://jaehoney.tistory.com/296](https://jaehoney.tistory.com/296)
     * ThreadLocal 학습: [https://jaehoney.tistory.com/302](https://jaehoney.tistory.com/302)
     * 새로운 프로젝트 양식을 팀에 공유
+
+- layout: left
+  name: 하이웍스 장애 대응 및 유지보수
+  dates: 2022.02 ~
+  quote: >
+    기존 프로젝트 유지보수
+  description: | # this will include new lines to allow paragraphs
+    * 기존 프로젝트의 전반적인 운영 이슈 해결 및 장애 대응
+    * 로그 분석 (ELK, Rsyslog, Access log)
+    * 웹 UI 및 간단한 프론트 스크립트 작성
+    * SVN -> GIT 이전, CI/CD 스크립트 작성
+    * 브라우저 이슈 해결(CORS, Cache-Control 등)
 
 - layout: left
   name: Daeng Bu
