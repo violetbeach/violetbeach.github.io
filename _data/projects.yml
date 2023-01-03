@@ -20,6 +20,16 @@
     * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
 
 - layout: left
+  name: Hiworks Mail API 개발
+  dates: 2022.10 ~
+  quote: >
+    레거시 프로젝트를 Java & Spring 프로젝트로 개편
+  description: | # this will include new lines to allow paragraphs
+    * 부하 및 메모리 누수 측정
+      * 부하 개선 (Transaction 분리, BufferedStream 사용, ...)
+      * 메모리 누수 해결 (ThreadLocal, try with Resources, ...)
+
+- layout: left
   name: Hiworks Java API Template 개편
   dates: 2022.04 ~ 2022.05
   quote: >
