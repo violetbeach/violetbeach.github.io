@@ -26,8 +26,8 @@
     레거시 프로젝트를 Java & Spring 프로젝트로 개편
   description: | # this will include new lines to allow paragraphs
     * 부하 및 메모리 누수 측정
-      * 부하 개선 (Transaction 분리, BufferedStream 사용, ...)
-      * 메모리 누수 해결 (ThreadLocal, try with Resources, ...)
+      * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 30 -> 900)
+      * 메모리 누수 해결 (try with Resources)
 
 - layout: left
   name: Hiworks Java API Template 개편
@@ -52,6 +52,7 @@
     * 웹 UI 및 간단한 프론트 스크립트 작성
     * SVN -> GIT 이전, CI/CD 스크립트 작성
     * 브라우저 이슈 해결(CORS, Cache-Control 등)
+    * Slow Query 해결(N+1, 커버링 인덱스)
 
 - layout: left
   name: Daeng Bu
