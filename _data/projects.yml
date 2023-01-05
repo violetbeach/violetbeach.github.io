@@ -9,9 +9,8 @@
     * 도메인 주도 설계(Domain-Driven-Design)를 적용
     * 멀티 모듈 적용
     * CQRS(조회 모델 DB 분리) 패턴을 적용
-      * 이벤트를 활용한 변경 전파
-      * 캐싱(EH Cache, Redis) 적용
-      * Write Back (조회 수 Batch Insert) 적용
+      * 이벤트를 활용한 변경 전파  
+    * 캐싱(EH Cache, Redis), Write Back (조회 수 Batch Insert) 적용
     * 깨끗한 테스트 코드 (Nested Tests, Object Mother 패턴, ... 활용)
     * Storage 접근에 대한 Transaction 완전 분리
     * 테스트 및 배포 자동화
@@ -28,6 +27,8 @@
     * 부하 및 메모리 누수 측정
       * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 30 -> 900)
       * 메모리 누수 해결 (try with Resources)
+    * 비동기 프로세스 실패 이벤트 처리
+    * 바운디드 컨텍스트 설계
 
 - layout: left
   name: Hiworks Java API Template 개편
