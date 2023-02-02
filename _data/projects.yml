@@ -6,7 +6,7 @@
   quote: >
     OOP, TDD, DDD 등의 이론을 적용해서 고수준의 유지보수성과 예측 가능한 서버 확장에 대한 설계를 고려하며 만든 사이드 프로젝트
   description: | # this will include new lines to allow paragraphs
-    * 멀티 모듈 적용
+    * [멀티 모듈 적용](https://jaehoney.tistory.com/318)
     * CQRS(조회 모델 DB 분리) 패턴을 적용
       * 이벤트를 활용한 변경 전파
     * 캐싱(EH Cache, Redis), Write Back (조회 수 Batch Insert) 적용
