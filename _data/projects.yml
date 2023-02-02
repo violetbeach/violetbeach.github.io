@@ -6,15 +6,12 @@
   quote: >
     OOP, TDD, DDD 등의 이론을 적용해서 고수준의 유지보수성과 예측 가능한 서버 확장에 대한 설계를 고려하며 만든 사이드 프로젝트
   description: | # this will include new lines to allow paragraphs
-    * 도메인 주도 설계(Domain-Driven-Design)를 적용
     * 멀티 모듈 적용
     * CQRS(조회 모델 DB 분리) 패턴을 적용
-      * 이벤트를 활용한 변경 전파  
-      * No Offset Search
+      * 이벤트를 활용한 변경 전파
     * 캐싱(EH Cache, Redis), Write Back (조회 수 Batch Insert) 적용
     * 깨끗한 테스트 코드 (Nested Tests, Object Mother 패턴, ... 활용)
     * Storage 접근에 대한 Transaction 완전 분리
-    * 테스트 및 배포 자동화
     * API 문서 자동화 (https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
     * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
 
@@ -27,9 +24,12 @@
     * 부하 및 메모리 누수 측정
       * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 47 -> 900)
       * 메모리 누수 해결 (try with Resources)
-    * 비동기 프로세스 실패 이벤트 처리
-    * 바운디드 컨텍스트 설계
-    * 커버링 인덱스 적용 (3s 792 -> 371ms)
+    * 비동기 프로세스 이벤트 처리
+    * 도메인 주도 설계(Domain-Driven-Design)를 적용
+      * 바운디드 컨텍스트 설계
+    * SQL 튜닝
+      * 커버링 인덱스 적용 (3s 792 -> 371ms)
+      * No offset search
 
 - layout: left
   name: Hiworks Java API Template 개편
