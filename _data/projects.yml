@@ -10,12 +10,12 @@
     * 멀티 모듈 적용
     * CQRS(조회 모델 DB 분리) 패턴을 적용
       * 이벤트를 활용한 변경 전파  
+      * No Offset Search
     * 캐싱(EH Cache, Redis), Write Back (조회 수 Batch Insert) 적용
     * 깨끗한 테스트 코드 (Nested Tests, Object Mother 패턴, ... 활용)
     * Storage 접근에 대한 Transaction 완전 분리
     * 테스트 및 배포 자동화
-    * API 문서 자동화
-      * [Custom snippet 사용](https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
+    * API 문서 자동화 (https://api.verby.co.kr/docs/api-docs.html) (optional 표현, 에러 코드 문서화, ...)
     * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
 
 - layout: left
@@ -25,10 +25,11 @@
     레거시 프로젝트를 Java & Spring 프로젝트로 개편
   description: | # this will include new lines to allow paragraphs
     * 부하 및 메모리 누수 측정
-      * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 30 -> 900)
+      * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 47 -> 900)
       * 메모리 누수 해결 (try with Resources)
     * 비동기 프로세스 실패 이벤트 처리
     * 바운디드 컨텍스트 설계
+    * 커버링 인덱스 적용 (3s 792 -> 371ms)
 
 - layout: left
   name: Hiworks Java API Template 개편

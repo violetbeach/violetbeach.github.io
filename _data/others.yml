@@ -10,6 +10,16 @@
     * 현재 평일 평균 PV 1050 ~ 1300, 누적 PV 21만
 
 - layout: left
+  name: 사내 활동
+  quote: >
+    사내에서 참가한 활동
+  description: | # this will include new lines to allow paragraphs
+    * 가비아 Teams 14기
+      * 사내 Confluence 문서 개편 및 노하우 공유
+      * 개발 가이드 및 신입 사원 Onboarding 문서 작성
+    
+
+- layout: left
   name: School Days
   quote: >
     학부 생활 및 연구실 활동
