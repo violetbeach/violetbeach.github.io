@@ -20,7 +20,7 @@ github_username: violetbeach
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 기반의 2년차 백엔드 개발자로 MAU 60만 그룹웨어 서비스의 **API 개발**과 **서비스 유지보수**를 해왔습니다.  \
+  Java & Spring 기반의 2년차 백엔드 개발자로 MAU 60만 그룹웨어 서비스의 **서버 개발** 및 **서비스 유지보수**를 해왔습니다. \
   <br>
   <mark>SOLID 원칙</mark> 및 <mark>KISS, DRY, YAGNI (원칙)</mark>을 충분히 준수하는 것을 매우 선호하며, 좋은 유지보수성을 가진 코드와 \
   트래픽 증가 및 성능 상 이슈를 충분히 고려한 <mark>시스템 설계</mark>로 인한 <mark>사용자 경험(UX)</mark> 향상을 목표로합니다. \
