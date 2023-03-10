@@ -28,8 +28,7 @@
     * 도메인 주도 설계(Domain-Driven-Design)를 적용
       * 바운디드 컨텍스트 설계
     * SQL 튜닝
-      * 커버링 인덱스 적용 (3s 792 -> 371ms)
-      * No offset search
+      * Covering Index (3s 792 -> 371ms), No offset search, Projection
 
 - layout: left
   name: Hiworks Java API Template 개편
