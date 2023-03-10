@@ -23,8 +23,8 @@
   description: | # this will include new lines to allow paragraphs
     * 부하 및 메모리 누수 측정
       * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 47 -> 900)
-      * 메모리 누수 해결 (try with Resources)
-    * 비동기 프로세스 이벤트 처리
+      * 메모리 누수 해결 (try with Resources), [메모리 낭비 문제 개선 (ZIP 다운로드)](https://jaehoney.tistory.com/325)
+    * 비관심사 비동기 이벤트 처리
     * 도메인 주도 설계(Domain-Driven-Design)를 적용
       * 바운디드 컨텍스트 설계
     * SQL 튜닝
