@@ -1,16 +1,13 @@
 - layout: left
-  company: 가비아
+  company: 가비아 하이웍스 개발
   link: https://www.gabia.com/
   job_title: Java Spring 서버 개발자
   dates: 2021.11 ~ 현재
   quote: >
-    시장 점유율 1위 그룹웨어 하이웍스 개발 및 유지보수
+    MAU 60만 그룹웨어 하이웍스 개발 및 유지보수
   description: | # this will include new lines to allow paragraphs
-    * 신규 API 개발 환경 구축
     * 레거시 개편 (PHP 5.6 CodeIgniter -> Java & Spring)
-      * 코드 아키텍처 개선
-      * 시스템 아키텍처 개선
-    * Script 작성 (TS & Node)
-    * SQL 튜닝 및 Index 개선
+      * 코드, 시스템 아키텍처 개선
+    * 다수의 Cron, Migration Script 작성
+    * 쿼리 튜닝 및 Index 개선
     * 운영 이슈 해결 및 장애 대응
-    * 작업 문서화

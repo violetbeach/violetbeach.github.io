@@ -4,19 +4,18 @@
   quote: >
     개인 기술 블로그
   description: | # this will include new lines to allow paragraphs
-    * 공부한 내용, 개발하면서 겪은 고민, 업무에서 만난 문제 등을 자세히 정리하여 공유
-    * TDD, OOP 등의 같은 개발론과 시스템 설계 등 다양한 분야의 내용을 다룸
-    * 습득한 지식을 정리해서 다른 분들과 공유하기 위해 운영
-    * 현재 평일 평균 PV 1050 ~ 1300, 누적 PV 21만
+    * 적용한 내용, 개발하면서 겪은 고민, 업무에서 만난 문제 등을 기록하고 공유
+    * 현재 평일 평균 PV 1100 ~ 1400, 누적 PV 31만
 
 - layout: left
-  name: 사내 활동
+  name: Gabia Teams 14기
   quote: >
     사내에서 참가한 활동
   description: | # this will include new lines to allow paragraphs
     * 가비아 Teams 14기
-      * 사내 Confluence 문서 개편 및 노하우 공유
-      * 개발 가이드 및 신입 사원 Onboarding 문서 작성
+      * 사내 Confluence 문서 개편 및 공유(발표)
+      * 트리 구조와 문서 가독성 개편, 부족한 문서 보충
+      * 신입 사원 온보딩 문서 작성
     
 
 - layout: left
@@ -25,7 +24,5 @@
     학부 생활 및 연구실 활동
   description: | # this will include new lines to allow paragraphs
     * Identity: 동서대학교 컴퓨터공학과 4학년
-    * Activities: UBSE 연구회 소속
-      * 스터디 모임(Java & Spring)
-      * 공모전 참가 (Red Dot Award Winner, etc.)
+    * 연구회 활동, 공모전 참가 (Red Dot Award Winner 수상)
     * Overall GPA(총점) : 3.87/4.5, Major GPA(전공 학점) : 4.41/4.5 [[지표]](https://violetbeach.github.io/school-days)
