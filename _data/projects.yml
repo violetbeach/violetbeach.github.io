@@ -1,5 +1,6 @@
 - layout: left
-  name: 커버 영상 공유 플랫폼 서버
+  name: Verby
+  job_title: 커버영상 공유 플랫폼 서버
   dates: 2022.07 ~
   link: https://github.com/verby-korea/verby-server
   description: | # this will include new lines to allow paragraphs
@@ -24,7 +25,7 @@
   name: Hiworks Mail API
   dates: 2022.10 ~
   quote: >
-    하이웍스 메일 서비스를 담당하는 메인 API
+    하이웍스에서 가장 많은 트래픽이 발생하는 메일 서비스의 전반을 담당
   description: | # this will include new lines to allow paragraphs
     * 신규 서비스 제공을 위해 부하 및 메모리 누수 개선
       * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 47 -> 900)
@@ -55,7 +56,7 @@
     * 웹 UI 및 간단한 프론트 스크립트 작성
     * SVN -> GIT 이전, CI/CD 스크립트 작성
     * 브라우저 이슈 해결(CORS, Cache-Control 등)
-    * Slow Query 해결(N+1, 커버링 인덱스)
+    * Slow Query 해결(N+1, 데드락, 커버링 인덱스)
 
 - layout: left
   name: Daeng Bu
