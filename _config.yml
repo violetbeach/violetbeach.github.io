@@ -29,7 +29,9 @@ about_content: | # this will include new lines to allow paragraphs
   <br>
   최근에는 이벤트 기반 아키텍처와 최종적 일관성, 동시성 이슈 등에 관심을 가집니다.
   
-  Blog: https://jaehoney.tistory.com, Github: https://github.com/violetbeach
+  <b>Contact</b> <br>
+  Blog: https://jaehoney.tistory.com <br>
+  Github: https://github.com/violetbeach
 
 # Footer
 footer_show_references: true
