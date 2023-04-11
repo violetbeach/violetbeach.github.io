@@ -33,7 +33,7 @@
       * [Zip 메모리 낭비 문제 해결](https://jaehoney.tistory.com/325)
     * 바운디드 컨텍스트 설계
     * [발송 실패 후속 처리를 Future -> Event 방식으로 개선](https://jaehoney.tistory.com/321)
-    * 성능 튜닝 - Covering Index (3s 792 -> 371ms), No offset search, Projection
+    * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333), No offset search, Projection
 
 - layout: left
   name: Hiworks Java API Template 개편
