@@ -24,7 +24,7 @@ about_content: | # this will include new lines to allow paragraphs
   <br>
   <mark>SOLID 원칙</mark>을 충분히 준수하는 것을 선호하며, <mark>좋은 코드</mark>와 트래픽 증가를 충분히 고려한 <mark>시스템 설계</mark>로 인한 <mark>사용자 경험(UX)</mark> 향상을 목표로합니다. \
   <br>
-  성능 개선을 할 때는 **Worse-case**를 충분히 고려하고, 메모리 문제 개선과 SQL 튜닝, 트랜잭션 범위 개선 등을 했습니다. \
+  성능 개선을 할 때는 **Worst-case**를 충분히 고려하고, 메모리 문제 개선과 SQL 튜닝, 트랜잭션 범위 개선 등을 했습니다. \
   <br>
   최근에는 이벤트 기반 아키텍처와 최종적 일관성, 동시성 이슈 등에 관심을 가집니다.
   

@@ -9,11 +9,12 @@
     * 테스트 코드 Fixture 재활용(Nested Tests, Object Mother)
     * [Storage 접근에 대한 Transaction 분리](https://jaehoney.tistory.com/295)
     * [API 문서](https://api.verby.co.kr/docs/api-docs.html) 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
-    * Trouble Shooting은 [[Link]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
+    * Trouble Shooting은 [[Notion]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
 
 - layout: left
   name: Hiworks Archive Server
-  dates: 2023.04 ~
+  job_title: 메일 아카이브 서버
+  dates: 2023.04 ~ 2023.06 예정
   quote: >
     하이웍스 메일의 영구 보관 및 백업을 위한 서비스
   description: | # this will include new lines to allow paragraphs
@@ -24,7 +25,7 @@
 
 - layout: left
   name: Hiworks Mail API
-  dates: 2022.10 ~
+  dates: 2022.10 ~ 2023.06 예정
   quote: >
     하이웍스에서 가장 많은 트래픽이 발생하는 메일 서비스의 전반을 담당
   description: | # this will include new lines to allow paragraphs
