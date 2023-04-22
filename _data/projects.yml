@@ -19,7 +19,7 @@
     하이웍스 메일의 영구 보관 및 백업을 위한 서비스
   description: | # this will include new lines to allow paragraphs
     * Clean Architecture 적용
-    * Kafka Producer, Consumer 설계 및 적용
+    * [Kafka Producer, Consumer 설계 및 적용](https://jaehoney.tistory.com/336)
       * 메시지 주체 및 스펙 설계
     * ATDD 적용
 
