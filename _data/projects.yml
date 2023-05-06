@@ -28,12 +28,12 @@
   quote: >
     하이웍스에서 가장 많은 트래픽이 발생하는 메일 서비스의 전반을 담당
   description: | # this will include new lines to allow paragraphs
-    * 신규 서비스 제공을 위해 부하 및 메모리 누수 개선
-      * 성능 개선 (Transaction 분리, BufferedStream 사용, TPS: 47 -> 900)
-      * [Zip 메모리 낭비 문제 해결](https://jaehoney.tistory.com/325)
+    * 신규 오픈을 위해 부하 및 메모리 누수 개선
+      * [1차 개발 완료 - 부하 테스트 및 개선 + CP 데드락 해결 등](https://github.com/violetbeach/blog-code/tree/master/loadtest/mail-api/readme.md)
+      * [Zip 메모리 낭비 해결](https://jaehoney.tistory.com/325)
+      * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333), No offset search, Projection
     * [발송 로직 책임 개선](https://jaehoney.tistory.com/334), [발송 실패 처리 개선](https://jaehoney.tistory.com/321)
     * [커넥션 누수 해결](https://jaehoney.tistory.com/337)
-    * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333), No offset search, Projection
     * 바운디드 컨텍스트 설계
 
 - layout: left
