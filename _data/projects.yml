@@ -3,6 +3,8 @@
   job_title: 커버영상 공유 플랫폼
   dates: 2022.07 ~
   link: https://github.com/verby-korea/verby-server
+  quote: >
+    사이드 프로젝트로 진행한 커버곡 영상을 공유하는 플랫폼 (1인 백엔드 개발)
   description: | # this will include new lines to allow paragraphs
     * [멀티 모듈 + CQRS 적용](https://jaehoney.tistory.com/318)
     * 캐싱(EH Cache, Redis, [Write back](https://github.com/verby-korea/verby-server/blob/master/batch-server/src/main/java/com/verby/batchserver/cover/WriteBackCoverHitsScheduler.java) 적용
@@ -16,7 +18,7 @@
   job_title: 주식 1분봉 수집 서버
   dates: 2023.06 ~ 2023.06
   quote: >
-    국내 유일하게 REST API를 지원하는 증권 KIS(한국투자증권) 기반 배치 서버
+    REST API를 지원하는 KIS(한국투자증권) 기반 배치 서버 (1인 개발)
   description: | # this will include new lines to allow paragraphs
     * Quartz + Batch 기반의 데이터 수집 서버
     * Batch 서버 특성 상 테스트 커버리지 100% 적용
@@ -44,7 +46,7 @@
       * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333), No offset search, Projection
     * [발송 로직 책임 개선](https://jaehoney.tistory.com/334), [발송 실패 처리 개선](https://jaehoney.tistory.com/321)
     * [커넥션 누수 해결](https://jaehoney.tistory.com/337)
-    * 라이브러리 다수 추가 (parser, transfer)
+    * 작업 과정에서 공통 라이브러리 추가 (parser, transfer)
     * 바운디드 컨텍스트 설계
 
 - layout: left
