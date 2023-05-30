@@ -15,7 +15,7 @@
 
 - layout: left
   name: KIS Trading Server
-  job_title: 주식 1분봉 수집 서버
+  job_title: 증권 데이터 수집 서버
   dates: 2023.06 ~ 2023.06
   quote: >
     REST API를 지원하는 KIS(한국투자증권) 기반 배치 서버 (1인 개발)
