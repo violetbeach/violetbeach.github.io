@@ -4,7 +4,7 @@
   dates: 2022.07 ~
   link: https://github.com/verby-korea/verby-server
   quote: >
-    사이드 프로젝트로 진행한 커버곡 영상을 공유하는 플랫폼 (1인 백엔드 개발)
+    커버곡 영상 공유 플랫폼 - 사이드 프로젝트 7인 참여 (서버 개발 1인)
   description: | # this will include new lines to allow paragraphs
     * [멀티 모듈 + CQRS 적용](https://jaehoney.tistory.com/318)
     * 캐싱(EH Cache, Redis, [Write back](https://github.com/verby-korea/verby-server/blob/master/batch-server/src/main/java/com/verby/batchserver/cover/WriteBackCoverHitsScheduler.java) 적용
