@@ -9,8 +9,9 @@
 
 - layout: left
   name: Open Source
+  job_title: 오픈 소스 기여 경험
   quote: >
-    Open Source Contribution Experience (오픈 소스 기여 경험)
+    Open Source Contribution Experience
   description: | # this will include new lines to allow paragraphs
     * [Spring-Kafka - @Nested 클래스 테스트에서 Test Context가 캐싱되지 않는 문제 해결](https://github.com/spring-projects/spring-kafka/pull/2694) [(Blog 정리)](https://jaehoney.tistory.com/347)
 
