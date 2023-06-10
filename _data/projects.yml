@@ -46,7 +46,7 @@
       * [Zip 메모리 낭비 해결](https://jaehoney.tistory.com/325)
       * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333), No offset search, Projection
     * [발송 로직 책임 개선](https://jaehoney.tistory.com/334), [발송 실패 처리 개선](https://jaehoney.tistory.com/321)
-    * [커넥션 누수 해결](https://jaehoney.tistory.com/337)
+    * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337)
     * 작업 과정에서 공통 라이브러리 추가 (parser, transfer)
     * 바운디드 컨텍스트 설계
 
