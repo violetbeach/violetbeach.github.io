@@ -7,8 +7,8 @@
     커버곡 영상 공유 플랫폼 - 사이드 프로젝트 7인 참여 (서버 개발 1인)
   description: | # this will include new lines to allow paragraphs
     * [멀티 모듈 + CQRS 적용](https://jaehoney.tistory.com/318)
-    * 캐싱(EH Cache, Redis, [Write back](https://github.com/verby-korea/verby-server/blob/master/batch-server/src/main/java/com/verby/batchserver/cover/WriteBackCoverHitsScheduler.java) 적용
-    * 테스트 코드 Fixture 재활용(Nested Tests, Object Mother)
+    * 캐싱(EH Cache, Redis, Write back) 적용
+    * 테스트 Fixture 재활용(Object Mother)
     * [Storage 접근에 대한 Transaction 분리](https://jaehoney.tistory.com/295)
     * [API 문서](https://api.verby.co.kr/docs/api-docs.html) 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
     * Trouble Shooting은 [[Notion]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
