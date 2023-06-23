@@ -55,7 +55,7 @@
   description: | # this will include new lines to allow paragraphs
     * 기존 프로젝트에서 Java ORM을 사용할 수 없는 문제 해결
       * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180)
-      * 개선점 고민: [Blog](https://jaehoney.tistory.com/296)
+      * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296)
     * 새로운 프로젝트 양식을 팀에 공유
 
 - layout: left
