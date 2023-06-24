@@ -6,10 +6,10 @@
   quote: >
     커버곡 영상 공유 플랫폼 - 사이드 프로젝트 7인 참여 (서버 개발 1인)
   description: | # this will include new lines to allow paragraphs
-    * [멀티 모듈 + CQRS 적용](https://jaehoney.tistory.com/318)
-    * [Storage 접근에 대한 Transaction 분리](https://jaehoney.tistory.com/295)
-    * [API 문서](https://api.verby.co.kr/docs/api-docs.html) 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
-    * Trouble Shooting은 [[노션]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf)에서 정리했습니다.
+    * [멀티 모듈 + CQRS 적용](https://jaehoney.tistory.com/318){:target="_blank"}
+    * [Storage 접근에 대한 Transaction 분리](https://jaehoney.tistory.com/295){:target="_blank"}
+    * [API 문서](https://api.verby.co.kr/docs/api-docs.html){:target="_blank"} 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
+    * Trouble Shooting은 [[노션]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf){:target="_blank"}에서 정리했습니다.
 
 - layout: left
   name: KIS Trading Server
@@ -31,7 +31,7 @@
   description: | # this will include new lines to allow paragraphs
     * Clean Architecture
     * ATDD 적용 (테스트 커버리지 100%)
-    * [Kafka Producer, Consumer 설계 및 적용](https://jaehoney.tistory.com/336)
+    * [Kafka Producer, Consumer 설계 및 적용](https://jaehoney.tistory.com/336){:target="_blank"}
 
 - layout: left
   name: Hiworks Mail API
@@ -40,11 +40,11 @@
     하이웍스에서 가장 많은 트래픽이 발생하는 메일 서비스의 전반을 담당
   description: | # this will include new lines to allow paragraphs
     * 신규 오픈을 위해 부하 및 메모리 누수 개선
-      * [(1차 개발 완료) 부하 테스트 및 TPS 개선 + CP 데드락 해결 등](https://github.com/violetbeach/blog-code/tree/master/loadtest/mail-api/readme.md)
-      * [Zip 메모리 낭비 해결](https://jaehoney.tistory.com/325)
-      * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333), No offset search, Projection
-    * [발송 로직 책임 개선](https://jaehoney.tistory.com/334), [발송 실패 처리 개선](https://jaehoney.tistory.com/321)
-    * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337)
+      * [(1차 개발 완료) 부하 테스트 및 TPS 개선 + CP 데드락 해결 등](https://github.com/violetbeach/blog-code/tree/master/loadtest/mail-api/readme.md){:target="_blank"}
+      * [Zip 메모리 낭비 해결](https://jaehoney.tistory.com/325){:target="_blank"}
+      * 성능 튜닝 - [Covering Index (3s 792 -> 371ms)](https://jaehoney.tistory.com/333){:target="_blank"}, No offset search, Projection
+    * [발송 로직 책임 개선](https://jaehoney.tistory.com/334){:target="_blank"}, [발송 실패 처리 개선](https://jaehoney.tistory.com/321){:target="_blank"}
+    * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337){:target="_blank"}
     * 공통 라이브러리 추가 (parser, transfer)
 
 - layout: left
@@ -54,8 +54,8 @@
     기존의 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 새로 구축
   description: | # this will include new lines to allow paragraphs
     * 기존 프로젝트에서 Java ORM을 사용할 수 없는 문제 해결
-      * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180)
-      * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296)
+      * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180){:target="_blank"}
+      * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296){:target="_blank"}
     * 새로운 프로젝트 양식을 팀에 공유
 
 - layout: left
@@ -69,7 +69,7 @@
     * 웹 UI 및 간단한 프론트 스크립트 작성
     * SVN -> GIT 이전, CI/CD 스크립트 작성
     * 브라우저 이슈 해결(CORS, Cache-Control 등)
-    * Slow Query 해결(N+1, [DeadLock](https://jaehoney.tistory.com/338), 커버링 인덱스)
+    * Slow Query 해결(N+1, [DeadLock](https://jaehoney.tistory.com/338){:target="_blank"}, 커버링 인덱스)
 
 - layout: left
   name: Daeng Bu
@@ -84,4 +84,4 @@
     * Spring Mail을 사용한 이메일 인증 구현
     * OAuth2.0을 이용한 소셜로그인 구현
     * AWS 활용(EC2, RDS, S3, Route53, ELB, CodeDeploy)
-    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://github.com/violetbeach/Daengbu#-%EB%B0%B0%ED%8F%AC)
+    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://github.com/violetbeach/Daengbu#-%EB%B0%B0%ED%8F%AC){:target="_blank"}

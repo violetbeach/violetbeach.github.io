@@ -28,8 +28,8 @@ about_content: | # this will include new lines to allow paragraphs
   <br>
   최근에는 이벤트 기반 아키텍처와 동시성 이슈와 최종적 일관성 등에 관심이 많습니다.
   
-  **Blog**: <a href="https://jaehoney.tistory.com">https://jaehoney.tistory.com</a> <br>
-  **Github**: <a href="https://github.com/violetbeach">https://github.com/violetbeach</a>
+  **Blog**: <a href="https://jaehoney.tistory.com" target="_blank">https://jaehoney.tistory.com</a> <br>
+  **Github**: <a href="https://github.com/violetbeach" target="_blank">https://github.com/violetbeach</a>
 
 # Footer
 footer_show_references: true
