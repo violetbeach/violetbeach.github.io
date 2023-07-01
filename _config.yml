@@ -22,12 +22,12 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring 기반의 2년차 백엔드 개발자로 MAU 60만 그룹웨어 서비스의 **서버 개발** 및 **서비스 유지보수**를 해왔습니다. \
   <br>
-  <mark>좋은 코드</mark>와 <mark>테스트 코드</mark>, 트래픽 증가를 충분히 고려한 <mark>시스템 설계</mark>에 대해 고민하며, <mark>사용자 경험(UX)</mark> 향상을 목표로합니다. \
+  <mark>좋은 코드</mark>와 <mark>테스트 코드</mark>, 트래픽 증가를 충분히 고려한 <mark>시스템 설계</mark>로 인한 <mark>사용자 경험(UX)</mark> 향상을 목표합니다. \
   <br>
-  성능 개선 시 **Worst-case**를 고려하고 Heap 메모리 누수 개선과 SQL 튜닝, 트랜잭션 범위 개선 등을 했습니다. \
+  **Worst Case**를 고려하고, 메모리 누수 해결, SQL 튜닝, 트랜잭션 범위 개선 등을 했습니다. \
   <br>
-  최근에는 이벤트 기반 아키텍처와 동시성 이슈와 최종적 일관성 등에 관심이 많습니다.
-  
+  B2C 서비스에 필요한 확장 가능한 설계에 관심을 가지고 있고, 동시성 문제와 이벤트 기반 아키텍처의 최종적 일관성에도 관심이 많습니다.
+  <br>
   **Blog**: <a href="https://jaehoney.tistory.com" target="_blank">https://jaehoney.tistory.com</a> <br>
   **Github**: <a href="https://github.com/violetbeach" target="_blank">https://github.com/violetbeach</a>
 
