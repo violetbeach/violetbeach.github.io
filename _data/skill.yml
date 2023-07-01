@@ -11,8 +11,8 @@
 - layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
-    * MySQL, MariaDB, Redis, Kafka, Elasticsearch
+    * MySQL, MongoDB, Redis, Kafka, Elasticsearch
     * CircleCI, Gitlab CI, Code Deploy
     * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
-    * Nginx, Tomcat, Apache
+    * JMeter, nGrinder
     * Docker
