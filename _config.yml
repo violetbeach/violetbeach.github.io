@@ -26,7 +26,7 @@ about_content: | # this will include new lines to allow paragraphs
   <br>
   성능 개선 시 Worst Case를 고려하고 메모리 누수 해결, SQL 튜닝, 트랜잭션 범위 개선 등을 했습니다. \
   <br>
-  최근에는 동시성 문제와 이벤트 기반 아키텍처의 최종적 일관성에도 관심이 많습니다. \
+  최근에는 동시성 문제와 이벤트 기반 아키텍처의 최종적 일관성을 공부하고 있습니다. \
   <br>
   **Blog**: <a href="https://jaehoney.tistory.com" target="_blank">https://jaehoney.tistory.com</a> <br>
   **Github**: <a href="https://github.com/violetbeach" target="_blank">https://github.com/violetbeach</a>
