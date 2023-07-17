@@ -49,11 +49,11 @@
     * 공통 라이브러리 추가 (parser, transfer)
 
 - layout: left
-  name: Hiworks Sharding Module
+  name: Hiworks sharding module
   dates: 2022.04 ~ 2022.05
   quote: >
-    사내 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 해결
+    사내 SpringBoot Project에서 ORM을 사용할 수 없는 문제가 있어서 해결
   description: | # this will include new lines to allow paragraphs
     * 기존 프로젝트에서 Java ORM을 사용할 수 없는 문제 해결
-      * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180){:target="_blank"}
-      * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296){:target="_blank"}
+    * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180){:target="_blank"}
+    * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296){:target="_blank"}
