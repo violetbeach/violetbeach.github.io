@@ -10,8 +10,8 @@
     * Git, SourceTree
 - layout: left
   name: DevOps
-  description: | # this will include new lines to allow paragraphs
-    * MySQL, MongoDB, Redis, Kafka, Elasticsearch
+  description: | 
+    * MySQL, MariaDB
     * CircleCI, Gitlab CI, Code Deploy
     * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
     * JMeter, nGrinder
