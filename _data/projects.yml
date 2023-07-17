@@ -1,5 +1,5 @@
 - layout: left
-  name: Verby
+  name: Verby Server
   job_title: 커버영상 공유 플랫폼
   dates: 2022.07 ~
   link: https://github.com/verby-korea/verby-server
@@ -49,40 +49,11 @@
     * 공통 라이브러리 추가 (parser, transfer)
 
 - layout: left
-  name: Hiworks Java API Template 개편
+  name: Hiworks Sharding Module
   dates: 2022.04 ~ 2022.05
   quote: >
-    기존의 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 새로 구축
+    사내 SpringBoot Project Template에서 ORM을 사용할 수 없는 문제가 있어서 해결
   description: | # this will include new lines to allow paragraphs
     * 기존 프로젝트에서 Java ORM을 사용할 수 없는 문제 해결
       * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180){:target="_blank"}
       * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296){:target="_blank"}
-    * 새로운 프로젝트 양식을 팀에 공유
-
-- layout: left
-  name: Hiworks 유지보수
-  dates: 2022.02 ~
-  quote: >
-    Hiworks 그룹웨어 유지보수
-  description: | # this will include new lines to allow paragraphs
-    * 전반적인 운영 이슈 해결 및 장애 대응
-      * 로그 분석 (ELK Stack, Rsyslog, Access log)
-    * 웹 UI 및 간단한 프론트 스크립트 작성
-    * SVN -> GIT 이전, CI/CD 스크립트 작성
-    * 브라우저 이슈 해결(CORS, Cache-Control 등)
-    * Slow Query 해결(N+1, [DeadLock](https://jaehoney.tistory.com/338){:target="_blank"}, 커버링 인덱스)
-
-- layout: left
-  name: Daeng Bu
-  link: https://github.com/violetbeach/Daengbu
-  dates: 2021.02 ~ 2021.07
-  job_title: 강아지 입 · 분양 커뮤니티
-  quote: >
-    실 서비스 수준의 프로젝트를 구현하는 것을 목표로 진행한 개인 프로젝트
-  description: | # this will include new lines to allow paragraphs
-    * REST API + Stateless (JWT in HttpOnly Cookie)
-    * 보안 강화 (XSS, CSRF, SQL Injection 방지 + HTTPS 구현)
-    * Spring Mail을 사용한 이메일 인증 구현
-    * OAuth2.0을 이용한 소셜로그인 구현
-    * AWS 활용(EC2, RDS, S3, Route53, ELB, CodeDeploy)
-    * [무중단 배포 구축 (Travis CI + CodeDeploy + Nginx)](https://github.com/violetbeach/Daengbu#-%EB%B0%B0%ED%8F%AC){:target="_blank"}
