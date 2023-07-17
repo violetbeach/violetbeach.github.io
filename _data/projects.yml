@@ -20,7 +20,7 @@
     REST API를 지원하는 KIS(한국투자증권) 기반 배치 서버 (1인 개발)
   description: | # this will include new lines to allow paragraphs
     * Quartz + Batch 기반의 데이터 수집 서버
-    * Batch 서버 특성 상 테스트 커버리지 100% 적용
+    * Batch 서버 특성 상 Test Coverage 100% 적용
 
 - layout: left
   name: Hiworks Archive Server
