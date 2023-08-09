@@ -2,12 +2,11 @@
   name: Backend
   description: | # this will include new lines to allow paragraphs
     * Java
-    * Spring Boot, Spring Data JPA
+    * Spring Boot
     * JPA, Querydsl
     * Junit5, Mockito, RestAssured
-    * Gradle
     * IntelliJ, DataGrip, Vim
-    * Git, SourceTree
+    * Gradle
 - layout: left
   name: DevOps
   description: | 

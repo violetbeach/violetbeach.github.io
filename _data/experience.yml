@@ -6,8 +6,9 @@
   quote: >
     MAU 60만 그룹웨어 하이웍스 메일서비스 개발 및 유지보수
   description: | # this will include new lines to allow paragraphs
-    * 레거시 개편 (PHP 5.6 CodeIgniter -> Java & Spring)
-    * 코드, 시스템 아키텍처 개선
+    * 레거시 개편 (PHP 5.6 CodeIgniter > Java & Spring)
+    * 코드 리뷰 및 방향성 제안
     * 다수의 Cron, Migration Script 작성
-    * 쿼리 튜닝 및 Index 개선
+    * SQL 튜닝 및 데이터 모델링
     * 운영 이슈 해결 및 장애 대응
+    * 성능 최적화
