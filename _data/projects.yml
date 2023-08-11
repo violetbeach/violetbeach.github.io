@@ -4,7 +4,7 @@
   dates: 2022.07 ~
   link: https://github.com/verby-korea/verby-server
   quote: >
-    커버곡 영상 공유 플랫폼 - 사이드 프로젝트 7인 참여 (서버 개발 1인)
+    커버곡 영상 공유 플랫폼 - 사이드 프로젝트 7인 참여 (1인 서버 개발)
   description: | # this will include new lines to allow paragraphs
     * [CQRS, 이벤트 기반 아키텍처 적용](https://jaehoney.tistory.com/318){:target="_blank"}
     * Storage 접근에 대한 Transaction 분리 (AWS S3 presigned-url)
@@ -29,8 +29,7 @@
   quote: >
     하이웍스 메일의 영구 보관 및 백업을 위한 서비스
   description: | # this will include new lines to allow paragraphs
-    * Clean Architecture
-    * ATDD 적용 (Coverage: 100%)
+    * Clean Architecture 및 ATDD 적용 (Coverage: 100%)
     * [Kafka Producer, Consumer 설계 및 적용](https://jaehoney.tistory.com/336){:target="_blank"}
     * NoSQL 데이터 모델링
 
