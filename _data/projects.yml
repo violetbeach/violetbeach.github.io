@@ -22,7 +22,8 @@
     REST API를 지원하는 KIS(한국투자증권) 기반 배치 서버 (1인 개발)
   description: | # this will include new lines to allow paragraphs
     * Quartz + Batch 기반의 데이터 수집 서버
-    * Batch 서버 특성 상 Test Coverage 100% 적용
+    * Batch 서버 특성 고려한 테스트 Coverage 100%
+    * [객체지향 생활체조 원칙 9가지](https://jaehoney.tistory.com/343){:target="_blank"} 적용
 
 - layout: left
   name: Hiworks Archive Server
@@ -51,8 +52,8 @@
   name: Hiworks sharding module
   dates: 2022.04 ~ 2022.05
   quote: >
-    사내 SpringBoot Project에서 ORM을 사용할 수 없는 문제가 있어서 해결
+    사내 SpringBoot Project에서 JPA를 사용할 수 없는 문제가 있어서 해결
   description: | # this will include new lines to allow paragraphs
-    * 기존 프로젝트에서 Java ORM을 사용할 수 없는 문제 해결
-    * 샤딩 처리와 동적 스키마명 할당 [[처리 과정]](https://jaehoney.tistory.com/180){:target="_blank"}
-    * 개선점 고민 [[Blog]](https://jaehoney.tistory.com/296){:target="_blank"}
+    * 사내 프로젝트에서 JPA를 사용할 수 없는 문제 해결
+    * [샤딩 처리와 동적 스키마명 할당](https://jaehoney.tistory.com/180){:target="_blank"}
+    * [추가 개선사항 고민](https://jaehoney.tistory.com/296){:target="_blank"}
