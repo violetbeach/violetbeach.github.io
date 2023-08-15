@@ -23,7 +23,7 @@
   description: | # this will include new lines to allow paragraphs
     * Quartz + Batch 기반의 데이터 수집 서버
     * Batch 서버 특성 고려한 테스트 Coverage 100%
-    * [객체지향 생활체조 원칙 9가지](https://jaehoney.tistory.com/343){:target="_blank"} 적용
+    * 객체지향 생활체조 원칙 9가지 적용 [(정리)](https://jaehoney.tistory.com/343){:target="_blank"}
 
 - layout: left
   name: Hiworks Archive Server
