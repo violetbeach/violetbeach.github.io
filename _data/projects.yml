@@ -8,8 +8,10 @@
   description: | # this will include new lines to allow paragraphs
     * [CQRS, 이벤트 기반 아키텍처 적용](https://jaehoney.tistory.com/318){:target="_blank"}
     * Storage 접근에 대한 Transaction 분리 (AWS S3 presigned-url)
-    * [API 문서](https://api.verby.co.kr/docs/api-docs.html){:target="_blank"} 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
-    * Trouble Shooting은 [[노션]](https://bevel-buzzard-64c.notion.site/Trouble-Shooting-003614a4bd214a92886b690c548a1eaf){:target="_blank"}에서 정리했습니다.
+    * API 문서 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
+    * [WriteBack으로 좋아요 수 집계](https://github.com/violetbeach/verby-server/blob/master/batch-server/src/main/java/com/verby/batchserver/cover/WriteBackCoverHitsScheduler.java){:target="_blank"}
+    * [멀티모듈 배포 프로세스 구축 (CircleCI, CodeDeploy)](https://jaehoney.tistory.com/253){:target="_blank"}
+    * 패키지 의존성 사이클 제거 (IntelliJ Analyze)
 
 - layout: left
   name: KIS Trading Server
