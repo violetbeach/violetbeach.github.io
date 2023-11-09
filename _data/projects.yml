@@ -32,8 +32,9 @@
   quote: >
     하이웍스 메일의 영구 보관 및 백업을 위한 서비스
   description: | # this will include new lines to allow paragraphs
-    * Clean Architecture 및 ATDD 적용 (Coverage: 100%)
-    * [Kafka Producer, Consumer 설계 및 적용](https://jaehoney.tistory.com/336){:target="_blank"}
+    * Hexagonal Architecture 적용 및 팀에게 전파
+    * ATDD 적용 (Test Coverage: 100%) 및 팀에게 전파
+    * [Kafka 설계 및 적용](https://jaehoney.tistory.com/336){:target="_blank"}
     * NoSQL 데이터 모델링
 
 - layout: left
@@ -46,7 +47,7 @@
     * [JavaMail API 메모리 성능 튜닝](https://jaehoney.tistory.com/360){:target="_blank"}, [레거시 정책 OOM 문제 해결](https://jaehoney.tistory.com/361){:target="_blank"}
     * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337){:target="_blank"}
     * [Covered Index 적용 (execution: 3s 792 -> 371ms)](https://jaehoney.tistory.com/333){:target="_blank"}, [Outer Join 쿼리 분리 (TPS: 10.8 -> 107.7)](https://github.com/violetbeach/blog-code/blob/master/loadtest/mail-api/readme.md#4-1-mails){:target="_blank"}
-    * 사내 라이브러리 추가 (Parser, Transfer)
+    * AutoConfiguration 기반 사내 라이브러리 추가 (Parser, Transfer)
 
 - layout: left
   name: Hiworks sharding module
@@ -54,6 +55,6 @@
   quote: >
     사내 SpringBoot Project에서 JPA를 사용할 수 없는 문제가 있어서 해결
   description: | # this will include new lines to allow paragraphs
-    * 사내 프로젝트에서 JPA를 사용할 수 없는 문제 해결
-    * [샤딩 처리와 동적 스키마명 할당](https://jaehoney.tistory.com/180){:target="_blank"}
-    * [추가 개선사항 고민](https://jaehoney.tistory.com/296){:target="_blank"}
+    * [사내 프로젝트에서 JPA를 사용할 수 없는 문제 해결](https://jaehoney.tistory.com/180){:target="_blank"}]
+    * [POC 및 추가 개선사항 고민](https://jaehoney.tistory.com/296){:target="_blank"}
+    * 첫 사내 기술 세미나에서 발표
