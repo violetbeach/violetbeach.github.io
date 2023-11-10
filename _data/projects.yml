@@ -32,8 +32,8 @@
   quote: >
     하이웍스 메일의 영구 보관 및 백업을 위한 서비스
   description: | # this will include new lines to allow paragraphs
-    * Hexagonal Architecture 적용 및 팀에게 전파
-    * ATDD 적용 (Test Coverage: 100%) 및 팀에게 전파
+    * Hexagonal Architecture 적용 및 팀에 전파
+    * ATDD 적용 (Test Coverage: 100%) 및 팀에 전파
     * [Kafka 설계 및 적용](https://jaehoney.tistory.com/336){:target="_blank"}
     * NoSQL 데이터 모델링
 
@@ -55,6 +55,6 @@
   quote: >
     사내 SpringBoot Project에서 JPA를 사용할 수 없는 문제가 있어서 해결
   description: | # this will include new lines to allow paragraphs
-    * [사내 프로젝트에서 JPA를 사용할 수 없는 문제 해결](https://jaehoney.tistory.com/180){:target="_blank"}]
+    * [사내 프로젝트에서 JPA를 사용할 수 없는 문제 해결](https://jaehoney.tistory.com/180){:target="_blank"}
     * [POC 및 추가 개선사항 고민](https://jaehoney.tistory.com/296){:target="_blank"}
-    * 첫 사내 기술 세미나에서 발표
+    * 사내 첫 기술 세미나에서 발표
