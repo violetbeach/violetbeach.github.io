@@ -23,6 +23,6 @@
   quote: >
     사내에서 참가한 활동 (팀즈)
   description: | # this will include new lines to allow paragraphs
-    * 사내 Confluence 문서 개편 및 공유 (발표)
-    * 문서 가독성 개편 및 부족한 개발문서 보충
-    * 신규 팀원 온보딩 문서 작성
+    * 사내 Confluence 문서 개편 및 발표
+    * 문서 가독성 개편 및 부족한 개발문서 개선
+    * 신규 개발자 온보딩 문서 작성
