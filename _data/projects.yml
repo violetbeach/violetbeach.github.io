@@ -53,8 +53,8 @@
   name: Hiworks sharding module
   dates: 2022.04 ~ 2022.05
   quote: >
-    사내 SpringBoot Project에서 JPA를 사용할 수 없는 문제가 있어서 해결
+    팀에서 DB 구조 문제 때문에 Spring과 JPA를 사용할 수 없던 해결
   description: | # this will include new lines to allow paragraphs
-    * [사내 프로젝트에서 JPA를 사용할 수 없는 문제 해결](https://jaehoney.tistory.com/180){:target="_blank"}
+    * [샤딩 모듈 개발 이야기](https://jaehoney.tistory.com/180){:target="_blank"}
     * [POC 및 추가 개선사항 고민](https://jaehoney.tistory.com/296){:target="_blank"}
     * 사내 첫 기술 세미나에서 발표
