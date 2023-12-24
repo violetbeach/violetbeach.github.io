@@ -1,8 +1,17 @@
 - layout: left
+  company: 카카오 페이
+  link: https://www.kakaopay.com/
+  job_title: 플랫폼제휴팀 금융서비스플랫폼파트
+  dates: 2024.01 ~ 재직 중
+  quote: >
+    IT로 금융 산업을 바꿔 생활에 이로움을 주는 위대한 여정에 참여 중
+  description: | # this will include new lines to allow paragraphs
+    * 작성 예정
+- layout: left
   company: 가비아
   link: https://www.gabia.com/
-  job_title: Java Spring 서버 개발자
-  dates: 2021.11 ~ 현재
+  job_title: 하이웍스개발팀 메일개발유닛
+  dates: 2021.11 ~ 2024.01
   quote: >
     MAU 60만 그룹웨어 하이웍스 메일서비스 개발 및 유지보수
   description: | # this will include new lines to allow paragraphs
