@@ -6,7 +6,9 @@
   quote: >
     IT로 금융 산업을 바꿔 생활에 이로움을 주는 위대한 여정에 참여 중
   description: | # this will include new lines to allow paragraphs
-    * 작성 예정
+    * 카드사와 내부 서버 간 통신하는 GW-서버 개발
+    * 카드 및 결제 어드민 페이지 개발
+    * (공개 예정)
 - layout: left
   company: 가비아
   link: https://www.gabia.com/
