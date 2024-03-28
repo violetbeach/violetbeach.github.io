@@ -45,7 +45,7 @@
   description: | # this will include new lines to allow paragraphs
     * 부하 테스트 및 TPS 개선
     * [JavaMail API 메모리 성능 튜닝](https://jaehoney.tistory.com/360){:target="_blank"}, [레거시 정책 OOM 문제 해결](https://jaehoney.tistory.com/361){:target="_blank"}
-    * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337){:target="_blank"}, [Hikari CP 데드락 해결](https://jaehoney.tistory.com/421){:target="_blank"}
+    * [HikariCP 커넥션 누수 해결](https://jaehoney.tistory.com/337){:target="_blank"}, [HikariCP 데드락 해결](https://jaehoney.tistory.com/421){:target="_blank"}
     * [Covered Index 적용 (3.792s->0.371s)](https://jaehoney.tistory.com/333){:target="_blank"}, [Outer Join 문제 해결 (TPS 10.8->107.7)](https://jaehoney.tistory.com/414){:target="_blank"}, [Java IO 성능 문제 개선 (TPS 1.7->21.7)](https://jaehoney.tistory.com/420){:target="_blank"}
     * AutoConfiguration 기반 사내 라이브러리 추가 (Parser, Transfer)
 
