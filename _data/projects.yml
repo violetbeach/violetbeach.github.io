@@ -1,9 +1,9 @@
 - layout: left
   name: MOCA
-  job_title: MST(삼성페이) 카카오페이 머니 결제 시스템
+  job_title: MST 카카오페이 머니 결제 시스템
   dates: 2024.01 ~ 2024.04
   quote: >
-    삼성페이의 MST X 카카오페이 머니 연동으로 카카오페이 오프라인 결제 커버리지 확장
+    삼성페이 MST X 카카오페이 머니 연동으로 카카오페이 오프라인 결제 커버리지 확장
   description: | # this will include new lines to allow paragraphs
     * 카드사와 팀 내부 서버 간 통신하는 GW-서버 개발
     * MST 카드 및 결제 어드민 페이지 개발
