@@ -17,7 +17,7 @@
   quote: >
     커버곡 영상 공유 플랫폼 - 사이드 프로젝트 7인 참여 (1인 서버 개발)
   description: | # this will include new lines to allow paragraphs
-    * [CQRS, 이벤트 기반 아키텍처 적용](https://jaehoney.tistory.com/318){:target="_blank"}
+    * [Redis Pub/Sub 기반 CQRS, 이벤트 기반 아키텍처 적용](https://jaehoney.tistory.com/318){:target="_blank"}
     * Storage 접근에 대한 Transaction 분리 (AWS S3 presigned-url)
     * API 문서 자동화 (Optional 표현, 에러 코드 문서화 등 Custom)
     * [WriteBack으로 좋아요 수 집계](https://github.com/violetbeach/verby-server/blob/master/batch-server/src/main/java/com/verby/batchserver/cover/WriteBackCoverHitsScheduler.java){:target="_blank"}
