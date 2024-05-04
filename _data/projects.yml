@@ -10,6 +10,17 @@
     * 데이터 배치 처리 개발
 
 - layout: left
+  name: Pay CodeReview Reminder
+  job_title: 코드리뷰 D-n 룰 자동화 및 슬랙 리마인더
+  dates: 2024.04 ~ 2024.04
+  quote: >
+    팀의 코드리뷰 지연 해결을 위해 개발
+  description: | # this will include new lines to allow paragraphs
+    * Github Action + Python을 사용
+    * 매일 PR 목록의 D-n Label을 부착 및 조정
+    * 정해진 시간에 Slack 알림
+
+- layout: left
   name: Verby Server
   job_title: 커버영상 공유 플랫폼
   dates: 2022.07 ~ 2023.03
