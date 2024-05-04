@@ -14,7 +14,7 @@
   job_title: 코드리뷰 D-n 룰 자동화 및 슬랙 리마인더
   dates: 2024.04 ~ 2024.04
   quote: >
-    팀의 코드리뷰 지연 해결을 위해 개발
+    팀의 코드리뷰 지연 해결을 위한 D-n 룰 적용 프로젝트
   description: | # this will include new lines to allow paragraphs
     * Github Action + Python 사용
     * 매일 PR 목록의 D-n Label을 부착 및 조정
