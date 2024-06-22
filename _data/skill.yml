@@ -1,7 +1,7 @@
 - layout: left
   name: Backend
   description: | # this will include new lines to allow paragraphs
-    * Java
+    * Java, Kotlin
     * Spring Boot
     * JPA, Querydsl
     * Junit5, Mockito, RestAssured
