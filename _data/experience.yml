@@ -7,6 +7,7 @@
     IT로 금융 산업을 바꿔 생활에 이로움을 주는 위대한 여정에 참여 중
   description: | # this will include new lines to allow paragraphs
     * 머니체크카드 시스템 개발 및 유지보수
+    * 삼성페이 MST X 카카오페이 머니 연동으로 비가맹 결제 커버리지 확장
     * 카드사와 팀 내부 서버 간 통신하는 GW-서버 개발
     * 승인대사 및 전표 처리 등 Batch 개발
 
