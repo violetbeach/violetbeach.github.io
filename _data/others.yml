@@ -13,10 +13,19 @@
   quote: >
     오픈 소스 기여 (Contribution Experience)
   description: | # this will include new lines to allow paragraphs
-    * Spring-Kafka: @Nested 클래스 테스트에서 Test Context가 캐싱되지 않는 문제 해결 ([Github PR](https://github.com/spring-projects/spring-kafka/pull/2694){:target="_blank"} / [Blog](https://jaehoney.tistory.com/347){:target="_blank"})
-    * [Spring-Framework(spring-jdbc): RoutingDataSource 런타임 중 DataSource 추가를 위해 메서드 분리](https://github.com/spring-projects/spring-framework/pull/31248){:target="_blank"}
-    * Apache-Commons-Email: Byte Array를 저장하는 방식의 메모리 이슈 제기 및 해결 ([PR-157](https://github.com/apache/commons-email/pull/157){:target="_blank"}, [PR-159](https://github.com/apache/commons-email/pull/159){:target="_blank"}), [etc](https://github.com/apache/commons-email/pull/158){:target="_blank"}
-    * [Lucy-XSS-Filter: blockingPrefix 설정 문서 누락 추가](https://github.com/naver/lucy-xss-filter/pull/29){:target="_blank"}
+    * Spring-Kafka
+      * @Nested 클래스 테스트에서 Test Context가 캐싱되지 않는 문제 해결 ([Github PR](https://github.com/spring-projects/spring-kafka/pull/2694){:target="_blank"} / [Blog](https://jaehoney.tistory.com/347){:target="_blank"})
+    * Spring-Framework 
+      * (spring-jdbc) [RoutingDataSource 런타임 중 DataSource 추가를 위해 메서드 분리](https://github.com/spring-projects/spring-framework/pull/31248){:target="_blank"}
+    * Apache-Commons-Email
+      * [메일 데이터를 메모리에 중복으로 저장하는 문제 해결](https://github.com/apache/commons-email/pull/157){:target="_blank"}
+      * [Parser를 Stream 방식으로 변경해서 Memory Issue 해결](https://github.com/apache/commons-email/pull/159){:target="_blank"}
+      * [etc. 일부 테스트 수정](https://github.com/apache/commons-email/pull/158){:target="_blank"}
+    * Spring-Data-Redis
+      * ListOperations getFirst(), getLast() 메서드 추가 제안
+      * 일부 오타 수정
+    * Lucy-XSS-Filter
+      * [blockingPrefix 설정 문서 누락 추가](https://github.com/naver/lucy-xss-filter/pull/29){:target="_blank"}
 
 - layout: left
   name: Gabia Teams 14기
