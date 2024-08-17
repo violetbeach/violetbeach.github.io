@@ -7,7 +7,6 @@
   description: | # this will include new lines to allow paragraphs
     * 카드사와 팀 내부 서버 간 통신하는 GW-서버 개발
     * MST 카드 및 결제 어드민 페이지 개발
-    * 모니터링 대시보드 및 Alert 구성
     * 제로페이 X 비가맹 등 결제 커버리지 확장
     * 다수의 배치 및 마이그레이션 처리 개발
 
@@ -18,7 +17,8 @@
   quote: >
     페이머니체크카드 운영 및 유지보수
   description: | # this will include new lines to allow paragraphs
-    * [에러 추적 시스템 개선 및 공유](https://jaehoney.tistory.com/432){:target="_blank"}
+    * 모니터링 대시보드 및 Alert 구성
+    * [Sentry 에러 추적 시스템 개선 및 공유](https://jaehoney.tistory.com/432){:target="_blank"}
 #    * 분리보관 프로세스 적용
 
 - layout: left
