@@ -22,8 +22,8 @@
       * [Parser를 Stream 방식으로 변경해서 Memory Issue 해결](https://github.com/apache/commons-email/pull/159){:target="_blank"}
       * [etc. 일부 테스트 수정](https://github.com/apache/commons-email/pull/158){:target="_blank"}
     * Spring-Data-Redis
-      * ListOperations getFirst(), getLast() 메서드 추가 제안
-      * 일부 오타 수정
+      * [ListOperations의 getFirst(), getLast() 메서드 추가](https://github.com/spring-projects/spring-data-redis/pull/2966){:target="_blank"}
+      * etc. 일부 JavaDoc 수정
     * Lucy-XSS-Filter
       * [blockingPrefix 설정 문서 누락 추가](https://github.com/naver/lucy-xss-filter/pull/29){:target="_blank"}
 
