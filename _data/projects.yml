@@ -5,9 +5,9 @@
   quote: >
     삼성페이 MST X 카카오페이 머니 연동으로 카카오페이 오프라인 결제 커버리지 확장
   description: | # this will include new lines to allow paragraphs
-    * 카드사와 팀 내부 서버 간 통신하는 GW-서버 개발
     * 가상 카드 사이클 관리 및 결제 플로우 개발
     * 대사, 매입 등 다수 배치 및 마이그레이션 처리 개발
+    * 카드사와 팀 내부 서버 간 통신하는 GW-서버 개발
     * 제로페이, 결제선생 연동, 비가맹 결제 확장
 
 - layout: left
@@ -17,12 +17,11 @@
   quote: >
     페이머니체크카드 시스템 유지보수 및 신규 제휴사 확장 등 개발
   description: | # this will include new lines to allow paragraphs
-    * 트래블로그 X 카카오페이 연동 추가 (결제, 통지, 망관리, 대사 등 처리)
-    * [Sentry 에러 추적 시스템 개선 및 공유](https://jaehoney.tistory.com/432){:target="_blank"}
-    * 수기 대응, PM 확인 필요한 일부 업무 자동화
-    * 제휴사 및 상품 추가위한 공통 인터페이스 개발 및 리팩토링
-    * 모니터링 대시보드 및 Alert 구성
-    * 탈회자 분리보관 프로세스 전체 적용
+    * 트래블로그 X 카카오페이 연동 추가 (결제, 망관리, 대사, 해외 체크거래 등 처리)
+    * [Sentry 에러 추적 시스템 개선 (불필요한 Slack Alert 77% 제거) 및 팀 발표](https://jaehoney.tistory.com/432){:target="_blank"}
+    * 제휴사 및 상품 확장성 위한 결제 및 대사 공통 인터페이스 개발
+    * Grafana 서비스 대시보드 및 Alert 구성
+    * 분리보관 플랫폼 연동 전체 적용
 
 - layout: left
   name: Pay CodeReview Reminder
