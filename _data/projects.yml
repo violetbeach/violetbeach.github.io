@@ -5,7 +5,7 @@
   quote: >
     삼성페이 MST X 카카오페이 머니 연동으로 카카오페이 오프라인 결제 커버리지 확장
   description: | # this will include new lines to allow paragraphs
-    * MST, 제로페이, 결제선생 등 비가맹 결제 시스템 구축
+    * MST, 제로페이, 외부 연동 비가맹 결제 시스템 구축
     * 가상 카드 사이클 관리 및 결제 플로우 개발
     * 대사, 매입, 전표처리 등 다수 배치 및 마이그레이션 처리 개발
     * 가맹점 관리 및 어드민 개발
