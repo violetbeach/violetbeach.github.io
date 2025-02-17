@@ -24,7 +24,7 @@
     * 제휴사 및 상품 확장성 위한 결제 및 대사 공통 인터페이스 개발
     * Grafana 서비스 대시보드 및 Alert 구성
     * 대사 및 정산 업무 불일치 100% 해소
-    * 팀 암복호화 라이브러리 개발 [변성 정리](https://jaehoney.tistory.com/439){:target="_blank"}
+    * 팀 암복호화 라이브러리 개발 [(변성 정리)](https://jaehoney.tistory.com/439){:target="_blank"}
     * 분리보관 플랫폼 연동 전체 적용
 
 - layout: left
