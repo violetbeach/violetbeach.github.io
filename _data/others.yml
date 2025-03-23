@@ -24,6 +24,8 @@
     * Spring-Data-Redis
       * [ListOperations의 getFirst(), getLast() 메서드 추가](https://github.com/spring-projects/spring-data-redis/pull/2966){:target="_blank"}
       * etc. 일부 JavaDoc 수정
+    * Kotlin
+      * [샘플 코드 추가](https://github.com/JetBrains/kotlin/pull/5411){:target="_blank"}, [코드 간소화](https://github.com/Kotlin/kotlinx.coroutines/pull/4378){:target="_blank"} 등
     * Lucy-XSS-Filter
       * [blockingPrefix 설정 문서 누락 추가](https://github.com/naver/lucy-xss-filter/pull/29){:target="_blank"}
 
