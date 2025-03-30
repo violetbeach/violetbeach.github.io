@@ -20,7 +20,7 @@ github_username: violetbeach
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java, Spring 기반 3년차 개발자로써, 16만 고객사와 MAU 70만 그룹웨어의 메일 서비스 전반을 담당했고,
+  Java, Spring 기반 4년차 개발자로써, MAU 70만 그룹웨어의 메일 서비스 전반을 담당했고,
   현재 **카카오페이 금융 서비스 플랫폼 파트**에서 **카드 결제 서비스**를 개발하고 있습니다.  \
   성능 모니터링을 위해 Intellij Profiler, Apache JMeter, Prometheus와 같은 도구를 사용하며, 
   기존 코드와 아키텍처의 문제를 파악 후 개선하여 메모리 사용량을 감소시키고 지연 시간을 최소화하여 TPS를 증가시키는 등
