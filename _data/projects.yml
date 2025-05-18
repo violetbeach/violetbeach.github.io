@@ -27,8 +27,8 @@
     * 분리보관 플랫폼 연동 전체 적용
 
 - layout: left
-  name: 카드중개플랫폼
-  job_title: 카드중개플랫폼 운영
+  name: Card Portal
+  job_title: 카드중개플랫폼 운영 개선
   dates: 2025.04 ~ 2025.05
   quote: >
     카드중개플랫폼 실적 증가 위한 개발 및 유지보수
