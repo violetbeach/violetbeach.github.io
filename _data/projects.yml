@@ -5,8 +5,7 @@
   quote: >
     삼성페이 MST X 카카오페이 머니 연동으로 카카오페이 오프라인 결제 커버리지 확장
   description: | # this will include new lines to allow paragraphs
-    * MST, 제로페이, 비가맹 결제 시스템 구축
-    * 결제 플로우 개발
+    * MST, 제로페이, 비가맹 결제 로직 추가
     * 대사, 매입, 전표처리 등 다수 배치 및 마이그레이션 처리 개발
     * 카드사 통신 GW-서버, 어드민 개발
     * 연말정산 미리보기/확정 자료 제출 배치 개발
@@ -32,8 +31,8 @@
   dates: 2025.04 ~ 2025.05
   quote: >
     카드중개플랫폼 실적 증가 위한 개발 및 유지보수
-  description: | # this will include new lines to allow paragraphs
-    * 액션 이벤트 트리거 연동 모듈 개발
+  description: | #
+    * 액션 이벤트 트리거 연동 모듈 개발 - M/S 40%대 유지
     * 암복호화 라이브러리 개발로 레거시 프로젝트 암/복호화 로직 통일 [(변성 정리)](https://jaehoney.tistory.com/439){:target="_blank"}
 
 - layout: left
