@@ -5,14 +5,12 @@
     * Spring Boot
     * JPA, Querydsl
     * Junit5, Mockito, RestAssured
-    * IntelliJ, DataGrip, Vim
     * Gradle
 - layout: left
   name: DevOps
   description: | 
     * MySQL, MariaDB
-    * CircleCI, Gitlab CI, Code Deploy
+    * CircleCI, Code Deploy
     * AWS EC2, RDS (MySQL), ElastiCache, S3, Elastic Load Balancer, Route53
-    * JMeter, nGrinder
     * Grafana, Sentry, ELK
-    * Docker
+    * JMeter, nGrinder

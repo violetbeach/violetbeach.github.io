@@ -1,5 +1,5 @@
 - layout: left
-  name: 개인 블로그
+  name: 개발 블로그
   link: https://jaehoney.tistory.com/
   quote: >
     개인 기술 블로그
@@ -32,7 +32,7 @@
 - layout: left
   name: Etc.
   quote: >
-    사내에서 수행한 다양한 외부 활동
+    사내에서 수행한 외부 활동
   description: | # this will include new lines to allow paragraphs
     * [카카오페이 기술 블로그(테크 리뷰어) - 분산 시스템에서 로컬 캐시 활용하기](https://tech.kakaopay.com/post/local-caching-in-distributed-systems/){:target="_blank"}
     * Gabia Teams - 사내 Confluence 문서 활용 개선 발표 (가독성 개편, 온본딩 문서 작성, 가이드 공유 등)
