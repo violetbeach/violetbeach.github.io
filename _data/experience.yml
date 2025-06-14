@@ -6,11 +6,11 @@
   quote: >
     페이머니 선불/체크카드 결제 및 전반적인 시스템 개발 및 운영
   description: | # this will include new lines to allow paragraphs
-    * 페이머니체크카드 결제 인프라 개발 및 운영
+    * 카카오페이머니 기반 카드결제 인프라 개발 및 운영
     * 삼성페이 MST X 카카오페이 머니 연동으로 결제 커버리지 대폭 확장
-    * 승인대사, 매입 및 정산 등 다수 Batch, GW 개발
-    * 결제 실패율 감소 프로젝트, 프로모션을 위한 모듈 개발
-    * 다수의 전사과제 및 시스템 개선 수행 
+    * 승인대사, 매입 및 정산, 소득공제 등 다수 배치, GW 개발
+    * 결제 실패율 감소, 프로모션을 위한 모듈 개발
+    * 전사과제 및 시스템 개선 수행 
 
 - layout: left
   company: 가비아
@@ -21,8 +21,7 @@
     MAU 60만 그룹웨어 하이웍스 메일서비스 개발 및 유지보수
   description: | # this will include new lines to allow paragraphs
     * 레거시 개편 (PHP 5.6 CodeIgniter > Java & Spring)
-    * 코드 리뷰 및 방향성 설득
     * 다수의 Cron, Migration Script 작성
-    * SQL 튜닝 및 데이터 모델링
+    * SQL 및 성능 튜닝 및 데이터 모델링
+    * 코드 리뷰 및 방향성 설득
     * 운영 이슈 해결 및 장애 대응
-    * 성능 최적화
