@@ -8,7 +8,7 @@
     * MST, 제로페이 결제 신규 개발 및 비가맹 인증형 결제, 삼성월렛 확장
     * 대사, 매입, 전표처리 등 다수 배치 및 마이그레이션 처리 개발
     * 소득공제 및 연말정산 자료 제출
-    * TcpServer 기반 무중단 배포 시스템 구축로 결제 유실 해소
+    * TcpServer 기반 무중단 배포 시스템 구축으로 결제 유실 해소
 
 - layout: left
   name: CAPI
@@ -30,7 +30,7 @@
   dates: 2025.04 ~ 2025.05
   quote: >
     카드중개플랫폼 실적 증가 위한 개발 및 유지보수
-  description: | #
+  description: | # this will include new lines to allow paragraphs
     * 액션 이벤트 트리거 연동 모듈 개발 - M/S 1위(40%대) 달성
     * 암복호화 라이브러리 개발로 레거시 프로젝트 암/복호화 로직 통일 [(변성 정리)](https://jaehoney.tistory.com/439){:target="_blank"}
 
