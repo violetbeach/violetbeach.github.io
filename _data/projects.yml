@@ -5,9 +5,10 @@
   quote: >
     삼성페이 MST X 카카오페이 머니 연동으로 카카오페이 오프라인 결제 커버리지 확장
   description: | # this will include new lines to allow paragraphs
-    * MST, 제로페이 결제 신규 개발 및 비가맹 인증형 결제 확장
+    * MST, 제로페이 결제 신규 개발 및 비가맹 인증형 결제, 삼성월렛 확장
     * 대사, 매입, 전표처리 등 다수 배치 및 마이그레이션 처리 개발
     * 소득공제 및 연말정산 자료 제출
+    * TcpServer 기반 무중단 배포 시스템 구축로 결제 유실 해소
 
 - layout: left
   name: CAPI
@@ -15,10 +16,10 @@
   dates: 2024.04 ~
   quote: >
     신한 대박 카드 시스템 유지보수 및 신규 제휴사(트래블로그) 확장 개발
-  description: | # this will include new lines to allow paragraphs
+  description: | # this will include new lines to allow paragraphs # PushGateway, 네티 메트릭 구성 등
     * [Sentry 에러 추적 시스템 개선 (불필요한 Slack Alert 80% 제거)](https://jaehoney.tistory.com/432){:target="_blank"}
     * 결제 및 매입, 정산 공통 인터페이스 개발 및 마이그레이션
-    * 서비스 대시보드 및 Alert 구축으로 실시간 서비스 가시성 확보 및 MTTD 최소화
+    * 모니터링 대시보드 및 Alert 구축으로 실시간 서비스 가시성 확보 및 MTTD 최소화
     * 대사 및 정산 불일치 100% 제거 및 결제 후속 프로세스 자동화
     * 민생지원쿠폰 결제 22일만에 대고객 오픈
     * 분리보관 플랫폼 연동 전체 적용
@@ -59,4 +60,3 @@
     * Github Action + Python 사용
     * 매일 PR 목록의 D-n Label을 부착 및 조정
     * Workflow에 등록한 시간에 Slack 알림
-    

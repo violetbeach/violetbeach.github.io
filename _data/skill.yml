@@ -6,6 +6,7 @@
     * JPA, Querydsl
     * Junit5, Mockito, RestAssured
     * Gradle
+    * Claude Code
 - layout: left
   name: DevOps
   description: | 
